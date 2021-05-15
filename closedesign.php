@@ -82,6 +82,9 @@
 .zetti{color:#cccccc}
 .zettix{color:#888888}
 
+.zettiqq{color:#cccccc}
+.zettixqq{color:#888888}
+
 </style>';
       
       echo $le;
