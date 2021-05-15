@@ -6,6 +6,6 @@ Social media platform focused on gifs and images manipulated using computer visi
 
 
 <h6 style="font-weight:normal">A user's contact list showing their favorites and fans</h6>
-<img src="Screenshot%20(1622).png" width=600 >
+<img src="shots/Screenshot%20(1622).png" width=600 >
 
 
