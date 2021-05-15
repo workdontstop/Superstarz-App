@@ -1,0 +1,76 @@
+
+
+
+
+///////click button locations to load new user, new feeds or refresh feeds  ////////
+
+userdata 
+
+history
+
+postlayout
+
+shootfeeds
+
+
+//////////click button locations to load new user, new feeds  or refresh feeds ///////////////
+
+
+
+
+
+
+
+
+////////history  method locations
+
+history
+
+sessionuser
+
+userdata
+
+postlayout
+
+////////history  method locations
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+////////////  locations with slick slide add///////////
+ .php(functions) hint
+
+starplay(postlayout)
+
+
+starslide(postlayout)
+
+compress(shootfeeds)
+
+expand(shootfeeds)
+
+reactions(comments...)
+
+history(reactstae == 1)
+
+////////////  locations with slick slide add///////////
+
+
+
+
+
+
+
+

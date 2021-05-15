@@ -1,0 +1,34 @@
+
+ .pushtopimg{ padding:0px;height:15px }
+
+ .indeximg{margin:auto;padding:0px;border-radius:0px;border-bottom-right-radius:4px;border-bottom-left-radius:4px}
+
+
+.pushindexinfo{padding:5px;text-align:center;margin-top:10px}
+
+.pushindexinfoafter{margin-top:40px}
+
+
+
+.floatpushbutt{text-align:center}
+
+
+
+
+.floatpush{text-align:center;padding:0px;margin-top:0.25em;} 
+
+
+.floaticonpush{margin-top:-0.45em;}
+
+
+
+
+.topspan{font-size:170%;margin-top:-2px;}
+ .topmid{font-size:135%;}
+ .topmidmobile{font-size:130%;}
+ .topicon{height:25px}
+  .topiconmobile{height:22px}
+
+.bottomspan{margin-top:-0.5px;font-size:170%;}
+.botmid{font-size:150%;margin-top:-0.05px}
+.botmidmobile{font-size:130%;}

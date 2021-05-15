@@ -1,0 +1,258 @@
+/*-------------------------
+	Simple reset
+--------------------------*/
+
+
+*{
+	margin:0;
+	padding:0;
+}
+
+
+/*-------------------------
+	General  
+html{
+	background: url('../img/background.jpg') center top no-repeat #141415;
+}
+
+
+--------------------------*/
+
+
+
+
+
+
+#dave{
+	
+
+background-color:#cccccc;
+	background:-webkit-linear-gradient(to right bottom,#999999,#666666,#999999,#777777,#999999,#555555);
+	background:-moz-linear-gradient(to right bottom,#999999 ,#666666,#999999,#777777,#999999,#555555);
+	background:linear-gradient( to right bottom,#999999,#666666,#999999,#777777,#999999,#555555);
+}
+
+
+
+
+
+.rani{border-radius:3px; -moz-box-shadow: 0 0 25px#ffffff; -webkit-box-shadow: 0 0 25px#ffffff;box-shadow: 0 0 25px#ffffff;}
+
+.ramk{margin-top:0px;padding: 4px; height:30px}  
+
+
+
+a, a:visited {
+	outline:none;
+	color:#1c4f64;
+}
+
+a:hover{
+	text-decoration:none;
+}
+
+section, footer, header{
+	display: block;
+}
+
+
+/*----------------------------
+	Heading
+-----------------------------*/
+
+
+h1{
+	font: 48px/1 'Yanone Kaffeesatz', sans-serif;
+	
+	padding:75px 0 50px;
+	margin:0 auto;
+}
+
+
+
+/*----------------------------
+	The Photo
+-----------------------------*/
+
+
+
+/*----------------------------
+	The Filters
+-----------------------------*/
+
+
+
+#filters{
+	
+	border-radius: 8px;
+	
+	overflow: hidden;
+	list-style: none;
+	white-space: nowrap;
+	overflow-x:auto;
+	
+}
+
+#filters li{
+	display:inline-block; 
+}
+
+
+
+#filters li:last-child{
+	margin-right:0;
+}
+
+
+
+#filters li a{
+	display: block;
+
+	display: inline-block;
+	position: static;
+
+	text-decoration: none !important;
+
+	
+	font-weight:normal;
+	color: #ffffff;
+text-shadow: 1px 2px 2px #000000;
+	text-align: center;
+
+	border-radius: 4px;
+	font-size: 14px;
+}
+
+#filters li a.active{
+
+	cursor:default;
+}
+
+
+
+
+
+
+#filters li a.active:before{
+	content: '';
+	
+	
+}
+
+/* The filters */
+
+
+
+/* Custom scrollbars for webkit */
+
+#filterContainer ::-webkit-scrollbar {
+    height: 11px;
+	
+}
+
+
+
+/* Handle */
+#filterContainer ::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: #cccccc;
+     background: rgba(255,255,255,0.5);
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.8);
+}
+
+#filterContainer ::-webkit-scrollbar-thumb:window-inactive {
+	   background: #cccccc;
+     background: rgba(255,255,255,0.8);
+}
+
+/* filter edit   */
+
+
+.wutang{font-size:47px;}
+
+
+#orbit{
+	
+	border-radius: 8px;
+	
+	overflow: hidden;
+	list-style: none;
+	white-space: nowrap;
+	overflow-x:auto;
+	
+}
+
+#orbit li{
+	display:inline-block; 
+}
+
+
+
+#orbit li:last-child{
+	margin-right:0;
+}
+
+
+
+#orbit li a{
+	display: block;
+
+	display: inline-block;
+	position: static;
+
+	text-decoration: none !important;
+
+	
+	font-weight:normal;
+	color: #ffffff;
+text-shadow: 1px 2px 2px #000000;
+	text-align: center;
+	margin-top:-10px;
+
+	border-radius: 4px;
+	font-size:16px;
+}
+
+#orbit li a.active{
+
+	cursor:default;
+}
+
+
+
+
+
+
+#orbit li a.active:before{
+	content: '';
+	
+	
+}
+
+/* The filters */
+
+
+
+/* Custom scrollbars for webkit */
+
+#filterEdit ::-webkit-scrollbar {
+    height: 11px;
+	
+}
+
+
+
+/* Handle */
+#filterEdit ::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: #cccccc;
+     background: rgba(255,255,255,0.5);
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.8);
+}
+
+#filterEdit ::-webkit-scrollbar-thumb:window-inactive {
+	   background: #cccccc;
+     background: rgba(255,255,255,0.8);
+}
+
+

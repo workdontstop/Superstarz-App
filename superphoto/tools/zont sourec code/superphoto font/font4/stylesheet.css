@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'faster_oneregular';
+    src: url('FasterOne-Regular-webfont.eot');
+    src: url('FasterOne-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('FasterOne-Regular-webfont.woff2') format('woff2'),
+         url('FasterOne-Regular-webfont.woff') format('woff'),
+         url('FasterOne-Regular-webfont.ttf') format('truetype'),
+         url('FasterOne-Regular-webfont.svg#faster_oneregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+

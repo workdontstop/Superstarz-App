@@ -1,0 +1,164 @@
+
+#a
+ajaxerror : contains error reply when ajax page call fails
+ajaxerror2 : contains error reply when ajax page call fails plus theme design for when loggen in
+
+
+#b
+
+
+#c
+
+
+#d
+datauser: collects data from ajax call for a profile load and feed load opposite of sessionuser
+dataco: holds mysql connection and default timezone
+dataerror1:  sql database failed execute ,prepare error
+dataerror1x:  sql database failed execute ,prepare error when logged in
+dataerror2 :  sql input not supported in bind param 
+dataerror2x:   sql input not supported in bind param  when logged in
+dropitemimage:   this removes all text or image data from the sql database in temp table (happens during upload usually 
+                rescinded items - text image) but only from the database
+dropitemimagefile:  this is a subset page called in dropitemimage.php which checks if  content is an image and then deletes the 
+                     actual file from superstarz servers.(deletes actaul image)
+               
+
+
+#e
+exit : redirects page to index for normal page load
+exitx : for ajax page load redirects to exit blank
+exitblank : empty page
+
+
+#f
+feedbackpost: this provides feedback after an image upload ( usually displays uploaded image under upload button)
+feedbackposterror: this shows little information about multiple or single upload error which will hv to be clicked for more
+                     details about said error
+ feedbackposterrorinfo:  this shows detailed text on an ocurred error  after  clicking on the error info tag
+ feedbackposttext: this provides feedback after a text writeup is submitted ( usually displays minimal text under upload  area)
+ forceinfont:  displays hidden font in a hidden layer to make actual font seamlessly load unto the platform 
+
+
+
+
+#g
+
+
+#h
+hashat:uses preg replace assign funtions to  #olympics and @mikeaj5 both hashtags and usernames
+
+
+
+
+
+#i
+index  :  superstarz login register and default page lets go -- start.css
+
+
+
+
+
+
+#j
+
+
+#k
+
+
+
+#L
+login: ajax login form
+loginsecure: access database ,login confirmation
+logcheck: initializes basic keep me logged in for user and redirects to superstarz  social.php page
+logs.js :  holds javascript for login and sign up pop up forms
+library:  handles all data upload functions
+logout2: facilitates logging out of superstars
+
+
+
+#m
+
+
+
+
+#n
+
+
+
+#o
+
+
+
+#p
+postlibrary: accepts all item data and pushes them into the database
+postlayout: holds post design and dynamic functionality(waits for data from shootfeeds.php)
+phpopen:  starts a session , applies optional cookie params and dictates maximum execution time
+phpopenx:  starts a session , applies optional cookie params and dictates maximum execution time for js slideup pages
+
+
+
+#q
+
+
+
+
+#r
+
+
+
+#s
+sessionuser: collects data from php session for a profile load and feed load of the logged user opposite of datauser
+shootfeeds: this accesses and  process information from the database(for feeds display) to be use in(   postlayout.php)
+shootfeedspagination:  (calls diffrent pages from same user feeds after clicking + ) collects data from shootfeeds.php 
+                         and then calls shootfeeds.php rendering the same data conditions but in diffrent sets
+serv:   handles functions that makes  image uploads possible
+servtext:   handles functions that makes text writeup upload possible
+social: holds all global functions for platform operations( basically the index page of a logged in user made to be minimalistic)
+         it prepares the whole platform for total ajax and javascript funtionality
+
+
+
+
+
+
+#t
+theme: controls the color scheme for superstarz in general
+timego: sets the timedata to an ago format
+
+
+
+
+
+
+#u
+userprofileinfo : this page hold all information about  a user , its  handles the top profile display in the superstarz platform
+userdata: this literally bridges the gap between profile and feeds for any given user( usually takes data from either  
+            sessionuser.php or datauser.php ) loads basic user info for userprofileinfo.php
+userfeedsgate: collects data for loading new feeds type post, sends data to shootfeeds.php
+userpagegate: collects data for loading user page(my uploads, member uploads ,jims page) type post, sends data to shootfeeds.php
+
+
+
+
+#V
+viewitemimage: allows you to view uploaded (still in temp folder: from feedbackpost) images in a more zoomed or fullscreen mode
+
+
+
+#w
+
+
+
+
+#x
+
+
+
+
+#y
+
+
+
+#z
+
+

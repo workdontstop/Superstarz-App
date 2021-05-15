@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'commandocommando';
+    src: url('commando-webfont.eot');
+    src: url('commando-webfont.eot?#iefix') format('embedded-opentype'),
+         url('commando-webfont.woff2') format('woff2'),
+         url('commando-webfont.woff') format('woff'),
+         url('commando-webfont.ttf') format('truetype'),
+         url('commando-webfont.svg#commandocommando') format('svg');
+   font-weight:400;
+    font-style: normal;
+
+}
+
