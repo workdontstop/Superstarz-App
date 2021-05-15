@@ -1,7 +1,7 @@
 
 
 
-
+<div  class="col-xs-12"> </div>
 <div  class="col-xs-hidden  col-sm-4"> </div>
      
 <div  class="col-xs-12 col-sm-4 zuzax"    style="background-color:<?php echo $vt; ?>;border-radius:6px;padding:0px; height:auto; -moz-box-shadow: 0 0 12px#cccccc; -webkit-box-shadow: 0 0 12px#cccccc;box-shadow: 0 0 12px#cccccc;" >
