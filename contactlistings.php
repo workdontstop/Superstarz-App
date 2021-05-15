@@ -68,6 +68,7 @@ else{  }
 
 
   <div class="col-xs-12"   style="padding:0px;">  
+    <div class="col-xs-12"   style="padding:0px;">  </div>
    <div class="col-xs-2 col-sm-1 superbuttonshover zuzax" onclick="javascript:contactarrow();"  style="margin-top:3.5px;font-size:140%;float:left;text-align:center;margin-left:4px"><span  class="juju">   <i class="fas fa-arrow-left" aria-hidden="true"></i></span> </div> 
      <div class="col-xs-1 col-sm-3">  </div>
         
